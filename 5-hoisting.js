@@ -1,6 +1,6 @@
 
 
-// Qué resultado esperas que nos aparesca si corremos este ejemplo? "undefined"
+// Qué resultado esperas que nos aparezca si corremos este ejemplo? "undefined"
 console.log(miNombre);
 
 var miNombre = "Diego";
@@ -26,7 +26,7 @@ var miNombre = 'Diego';
 
 // Lo que sucede con hoisting 
 
-function hey() {  // La funcion se declara hasta arriva, y despues se declarán las variables. 
+function hey() {  //La función se declara hasta arriba, y después se declaran las variables.
     console.log('Hola ' + miNombre);
 };
 

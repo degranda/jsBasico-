@@ -1,8 +1,8 @@
-// Esto nos ayudará para poder hacer deciciones.
+// Esto nos ayudará para poder hacer decisiones.
 
 var esUsuario = true; 
 
-if(esUsuario) {  // con el if validaremos que la condicional sea true 
+if(esUsuario) {  // con el if validamos que la condición sea true
     console.log('Tiene acceso al contenido'); 
 }
 
@@ -16,7 +16,7 @@ if(esUsuario) {
     console.log('Tienes que crear una cuenta para poder acceder al contenido');
 }
 
-// Ejemplo de como haríamos una validación
+// Ejemplo de cómo haríamos una validación
 
 var edad = 18; 
 var accion; 
@@ -29,7 +29,7 @@ if(edad >= 18) {
 
 console.log(accion);
 
-// Ejemplo de cómo utilizariamos el else if 
+// Ejemplo de cómo utilizaremos el else if
 
 var edad = 18; 
 var accion;  

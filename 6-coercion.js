@@ -11,7 +11,7 @@ var b = a + "";
 var a = [1,2];
 var b = [3,4]; 
 
-a + b // En este ejemplo, por la concatenación, ambos arrays son obligados a convertirce en strings, y luego se juntan. 
+a + b // En este ejemplo, por la concatenación, ambos arrays son obligados a convertirse en strings, y luego se juntan.
 
 // === Explicit coercion ===
 
@@ -25,7 +25,7 @@ var a = 30;
 var b = a.toString();
 
 var c = "100"; 
-var d = +c; // Unary operator '+' de forma explicita convierte a numero
+var d = +c; // Unary operator '+' de forma explícita convierte a número
 
 // más ejemplos
 

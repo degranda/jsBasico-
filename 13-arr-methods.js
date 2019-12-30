@@ -9,7 +9,7 @@ var articulos = [
 ]
 
 //   Metodo Filter  
-/* Valida si es un true o false para poder meterlos al nuevo array, y éste metodo no modifica el array original */
+/* Válida si es un true o false para poder meterlos al nuevo array, y éste método no modifica el array original */
 
 var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500  /* Menor o igual a 100 */ 
@@ -26,7 +26,7 @@ var nombreArticulos = articulos.map(function(articulo){
 console.log(nombreArticulos);
 
  //   Metodo Find
- /* De igual forma, con este metodo se valida un true o false para encontrar un elemento y si está lo regresa y si no, no pasa nada */
+ /* De igual forma, con este método se valida un true o false para encontrar un elemento y si está lo regresa y si no, no pasa nada */
 
 var encuentraArticulos = articulos.find(function(articulo){
     return articulo.nombre === 'laptop';
@@ -41,7 +41,7 @@ articulos.forEach(function(articulo){
 });
 
 //   Metodo Some
-/* Este metodo nos regresa un false o un true para validar si hay o no articulos que cumplan la validación */
+/* Este método nos regresa un false o un true para validar si hay o no artículos que cumplan la validación */
 
 var articulosBaratos = articulos.some(function(articulo){
     return articulo.costo <= 700;
@@ -51,7 +51,7 @@ console.log(articulosBaratos);
 
 //   Metodo Every
 
-/* Este metodo checa que todos los elementos en el array cumplan con la validación que ponemos, y al final nos regresa un true o un false */
+/* Este método checa que todos los elementos en el array cumplan con la validación que ponemos, y al final nos regresa un true o un false */
 
 var articulosBaratos = articulos.every(function(articulo){
     return articulo.costo <= 700;
@@ -60,7 +60,7 @@ var articulosBaratos = articulos.every(function(articulo){
 console.log(articulosBaratos); 
 
 //   Metodo Reduce
-/* Este metodo corre una funcion en casa elemento del array, para comenzar a sumar los costos de cada elemento. */
+/* Este método corre una función en cada elemento del array, para comenzar a sumar los costos de cada elemento. */
 
 var costoTotal = articulos.reduce(function(totalActual, articulo){
     return articulo.costo + totalActual;

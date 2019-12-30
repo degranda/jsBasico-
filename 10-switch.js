@@ -1,7 +1,7 @@
 var numero = 1; 
 var resultado; 
 
-/* Switch compara con un === por esa razon los elementos tiene que ser identicos */ 
+/* Switch compara con un === por esa razón los elementos tiene que ser idénticos */ 
 
 switch (numero) {
     case 1: 

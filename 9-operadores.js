@@ -1,5 +1,5 @@
 
-//Binary operators, y esto es porque significa que están 2 operandos involucrado 
+// Binary operators, y esto es porque significa que están 2 operandos involucrado 
 
 3 + 2
 50 - 10
@@ -12,7 +12,7 @@
 
 !false // operador not (no)
 
-// Logicos y relacionales 
+// Lógicos y relacionales
 
 3.0 == '3' // es igual
 
