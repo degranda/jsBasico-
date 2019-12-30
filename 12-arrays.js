@@ -2,15 +2,17 @@
 
 // Los arrays son objetos de tipo lista cuyo prototipo tiene métodos para realizar operaciones de recorrido y mutación
 
+var frutas = []; // Array Literal Syntax 
+
 var frutas = ["Manzana", "Platano", "Cereza", "Freza"]; 
  console.log(frutas); 
  console.log(frutas.length); // length es una propiedad del array
 
  // Acceder (por índice) a un elemento del Array
- console.log(frutas[0]);
+ console.log(frutas[0]);   // Los arrays iician en "0" 
 
 
-// Metodos para trabajar con arrays 
+// === Metodos para mutar arrays ===
 
 
 // .push();

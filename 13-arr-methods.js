@@ -8,6 +8,10 @@ var articulos = [
     { nombre: 'audifonos', costo: 1700 }
 ]
 
+
+// Metodos para recorrer arrays 
+
+
 //   Metodo Filter  
 /* Válida si es un true o false para poder meterlos al nuevo array, y éste método no modifica el array original */
 
