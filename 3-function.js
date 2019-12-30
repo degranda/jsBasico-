@@ -1,4 +1,4 @@
-// Las funciones son prodecimientos, un conjunto de sentencias o pasos que realizarán una tarea o calculo con ciertos valores. 
+// Las funciones son procedimientos, un conjunto de sentencias o pasos que realizarán una tarea o cálculo con ciertos valores.
 
 // Tenemos dos tipo de funciones en js, function Declaration y function Expression 
 
@@ -8,7 +8,7 @@ function miFuncion() { // function delcaration
 
 miFuncion(); // mandamos llamar la funcion
 
-var miFuncion = function(a,b) {  // function Expression (tambien conocidas cono funciones anonimas)
+var miFuncion = function(a,b) {  // function Expression (también conocidas como funciones anónimas)
     return a + b;
 }
 
@@ -23,7 +23,7 @@ function saludarEstudiante(estudiante) {
 
 // Return, cómo regresamos un valor con una function. 
 
-function suma(a,b) {  // está funcion recibe 2 parametos, que se convierten en un placeholder de valores que se pueden utilizar dentro de la funcion.
+function suma(a,b) {  // está funcion recibe 2 parámetros, que se convierten en un placeholder de valores que se pueden utilizar dentro de la función.
     var resultado = a + b; 
 }
 
