@@ -1,3 +1,5 @@
+// Un objeto es una colección de propiedades, y una propiedad es una asociación de key (nombre, o clave) y valores.
+
 var objecto = {}; // Object Literal Syntax 
 
 var miAuto = {
