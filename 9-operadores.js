@@ -1,6 +1,8 @@
 
 // Binary operators, y esto es porque significa que están 2 operandos involucrado 
 
+// de operación 
+
 3 + 2
 50 - 10
 10 * 3
@@ -10,19 +12,25 @@
 
 // Unary operator, aquí es porque hay solo 1 operando involucrado 
 
+// Lógicos 
+
 !false // operador not (no)
 
-// Lógicos y relacionales
+// Asignación 
 
-3.0 == '3' // es igual
+var a = 1; 
 
-3.0 === '3' // es estrictamente igual 
+// comparación 
+
+3 == '3' // es igual
+
+3 === '3' // es estrictamente igual 
 
 5 < 3, 5 <= 3, 5 > 3, 5 >= 3 // menor, menor o igual, mayo, mayor o igual 
 
-a && b // operador and (y)
+a && b // operador and (y), este operador genera una valicación siempe y cuando ambas variables sean verdad, "var 1 y var 2"
 
-true || false // operador or (o)
+true || false // operador or (o), este operador genera una validacion siempre y cuando cuaquier de as variables sea verdad, "var 1 o var 2"
 
 
 /* ================================================================ */ 
@@ -31,27 +39,8 @@ true || false // operador or (o)
 
 var edad = 40;
 
-edad++;
+edad++;  // operador de incremento por 1
 edad += 2; 
 
 edad;
 
-/* ================================================================ */ 
-
-// Operador ternario 
-
-var numero = 1; 
-var resultado; 
-
-if(numero === 1) {
-    resultado = 'Sí son un 1'; 
-} else {
-    resultado = 'No soy un 1'; 
-}
-
-condition ? true : false; 
-
-var numero = 1; 
-var resultado = numero === 1 ? 'Sí son un 1' : 'No soy un 1';
-
-console.log(resultado);

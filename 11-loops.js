@@ -1,3 +1,5 @@
+// Los loops (bucles), son manera rápida y sencilla de hacer algo (una tarea) repetidamente.
+
 var estudiantes = [ 'Maria', 'Sergio', 'Rosa', 'Daniel' ]; 
 
 function saludarEstudiante(estudiante) {

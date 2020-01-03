@@ -43,3 +43,40 @@ if(edad === 18) {
 }
 
 console.log(accion);
+
+
+
+/* ================================================================ */ 
+
+// Operador ternario 
+
+var numero = 1; 
+var resultado; 
+
+if(numero === 1) {
+    resultado = 'Sí son un 1'; 
+} else {
+    resultado = 'No soy un 1'; 
+}
+
+condition ? true : false; 
+
+var numero = 1; 
+var resultado = numero === 1 ? 'Sí son un 1' : 'No soy un 1';
+
+console.log(resultado);
+
+
+// ==============================
+
+
+// Ejercicio, reaizar un piedra, papel o tijeras, utilizando condicionales, una funcion que reciba el parametro con el que vamos a jugar, y me regrese si gane o perdí. 
+
+/*  
+
+Variables piedra, papel y tiejeras 
+una funcion que utilice cindicionales para validar si el parametro que le estoy pasando gana o pierde. 
+
+y que la funcion al final me regrese el resultado de si gané, o  perdí. 
+
+*/ 

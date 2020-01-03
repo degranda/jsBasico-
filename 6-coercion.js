@@ -34,7 +34,7 @@ var num2 = 5 + +num1;
 
 /*  
 
-Numer + Numer = Number
+Number + Number = Number
 Number + String = String
 String + Number = String
 String + String = String

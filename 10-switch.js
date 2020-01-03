@@ -1,3 +1,5 @@
+// Switch es una forma diferente de validar, está depende del caso que sea verdad. 
+
 var numero = 1; 
 var resultado; 
 

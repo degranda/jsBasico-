@@ -1,3 +1,4 @@
+// Hoisting es cuando las declaraciones de variables y funciones se procesan antes de ejecutar cualquier código, al momento de qe se genere el hosting, las funciones se declarán primero, y despues las variables.
 
 
 // Qué resultado esperas que nos aparezca si corremos este ejemplo? "undefined"
@@ -7,9 +8,9 @@ var miNombre = "Diego";
 
 // Lo que sucede con el hoisting
 
-var miNombre;
+var miNombre = undefined;
 
-console.log(miNombre);
+console.log(miNombre + "soy hoisting");
 
 miNombre = "Diego";
 
