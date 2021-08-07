@@ -4,12 +4,12 @@
 
 var frutas = []; // Array Literal Syntax 
 
-var frutas = ["Manzana", "Platano", "Cereza", "Fresa"]; 
-console.log(frutas); 
-console.log(frutas.length); // length es una propiedad del array
+var frutas = ["Manzana", "Platano", "Cereza", "Fresa"];
+console.log(frutas);
+console.log(frutas.length); // length es una propiedad del array que nos indica la cantidad de elementos que contiene dicho array
 
 // Acceder (por índice) a un elemento del Array
-console.log(frutas[0]);   // Los arrays iician en "0" 
+console.log(frutas[0]); // Los arrays inician en el índice "0" 
 
 
 // === Metodos para mutar arrays ===
@@ -17,13 +17,13 @@ console.log(frutas[0]);   // Los arrays iician en "0"
 
 // .push();
 
- var masFrutas = frutas.push("Uvas"); // Esté metodo añadirá "Uvas" añ final del array
- console.log(frutas);
+var masFrutas = frutas.push("Uvas"); // Esté metodo añadirá "Uvas" añ final del array
+console.log(frutas);
 
 // .pop();
 
- var utlimo = frutas.pop("Uvas"); // Eliminará "Uvas" del final 
- console.log(frutas);
+var utlimo = frutas.pop("Uvas"); // Eliminará "Uvas" del final 
+console.log(frutas);
 
 // unshift()
 
@@ -37,6 +37,5 @@ console.log(frutas);
 
 // .indexOf();
 
-var posicion = frutas.indexOf("Platano"); // te dará la posición de ese item en el array
+var posicion = frutas.indexOf("Platano"); // Te dará la posición de ese ítem en el array
 console.log(frutas);
-

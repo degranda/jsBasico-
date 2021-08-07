@@ -5,7 +5,7 @@
 // Falsy (False)
 
 "" // un string vacío 
-0 -0
+0 - 0
 null
 NaN
 false
@@ -13,16 +13,16 @@ undefined
 
 //Truthy (true)
 
-"hola"
-30
-{a:1}
-[1,3]
+    "hola"
+30 { a: 1 }
+[1, 3]
 true
-function a(){}
-más 
 
-// Para que podemos utilizar esto, para generar condiciones segun el valor que demos. 
+function a() {}
+más
 
-if(InputEvent.value) {
+// ¿Para qué podemos utilizar esto? Para generar condiciones según el valor que demos. 
+
+if (InputEvent.value) {
     ...
 }
