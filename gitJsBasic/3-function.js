@@ -1,3 +1,5 @@
+// Caca pedo culo pis!!!!!
+
 // Las funciones son procedimientos, un conjunto de sentencias o pasos que realizarán una tarea o cálculo con ciertos valores.
 
 // Tenemos dos tipo de funciones en js, function Declaration y function Expression 
